@@ -1,3 +1,4 @@
+#!/bin/bash
 echo -e  "\nAnagram:"
 echo "cat tac tic"|./mapper_anagram.py|sort|./reducer_anagram.py 
 
